@@ -52,10 +52,28 @@ This heat map show that, for all riders, the busiest hours of the day for weekda
 ![Three heat maps, by gender, that show start/stop times for riders by day of the week](https://github.com/larabjork/nyc-bikesharing/blob/main/images/trips_by_gender_weekday_per_hour.png)
 These heat maps show that start and stop times  for female and male riders follow largely the same pattern, albeit with less intensity among female riders. RIders of unknown gender show a similar but less discernible pattern.
 
-### User Trips by Gender and User Type
-![Heat map showing intensity of ridership, split by gender and user type](https://github.com/larabjork/nyc-bikesharing/blob/main/images/trips_by_gender_customer_type_weekday.png)
+### User Trips by Gender and Usertype
+![Heat map showing intensity of ridership, split by gender and usertype](https://github.com/larabjork/nyc-bikesharing/blob/main/images/trips_by_gender_customer_type_weekday.png)
 This heat maps shows that ridership for pay-per-use riders ("customers") has little difference by gender across day of the week, with some increased use on weekends. For subscribers, the gendered pattern of the previous visualization continues: male riders with highest use, especialy on Thursdays, female riders with a similar but less intense use, and riders of unknown gender without a clear pattern of use by day of the week.
 
 ## Summary
-* high level summary 
-* two additional viz for future analysis
+These visualizations helped create a picture of who uses New York's Citi Bikes and when. Although the gender categories are problematic, bike safety experts often use the number of female riders as an indicator of a city's bikeability. 
+
+rom these visualizations, we know that most Citi Bike users are male and most riders happen around commute hours, with Thursday evenings as a peak time. 
+
+Once we examine based on usertype, however, differences in usage by gender become less apparent, and peak times do not center on weekday commute hours, not surprisingly.
+
+### Directions for Future Analysis
+The most apparent differences seem to be around usertype, which is not surprising, since customers are more likely to include tourists and would understandly have different ridership patterns than commuters. Therefore, in future analyses, increased attention to usertype is important. Although pay-per-use customers are a smaller percentage of the total users, we could better understand this audience and perhaps increase use and associated revenue from it.
+
+* When are peak times of day for use by customers? Create versions of checkout times by hour and start/stop times by day of week with usertype information.
+
+* Where are customers checking out and returning bikes? Create maps of start/stop locations filtered by usertype.
+
+These directions would be most informative for the New York Citi Bike team. To understand the potential in Des Moines, we need new data on:
+
+* Current ridership in the city: Who rides,  where do they go, when do they ride (time of day), and how does time of year (weather and darkness) affect ridership. This data would help us understand whether subscriber riders are likely to become a core revenue source for Des Moines. With data in hand, we can develop appropriate visualizations.
+
+* Last-mile potential: One of the aims of bikesharing is to help bridge the "last mile" gap in public transit, since people can be more willing to ride a bike for the last mile of a trip than to walk. Does this problem exist in Des Moines? We need to understand if this is relevant to our program design.
+
+* Tourist potential: Are there good opportunities to create bikeable spaces that connect the tourist destinations of Des Moines? Mapping exisitng tourist locations and associated bike infrastructure will be helpful.
